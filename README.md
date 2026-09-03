@@ -1,10 +1,10 @@
 # EURJPY 12h OHLCV Forex Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-14_076_rows-blue)](https://getdata.finance/datasets/eurjpy) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/eurjpy)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-14_118_rows-blue)](https://getdata.finance/datasets/eurjpy) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/eurjpy)
 
 ### -> [**Download the full EURJPY dataset on getdata.finance**](https://getdata.finance/datasets/eurjpy)
 
-**EURJPY 12h OHLCV forex historical data** — ultra high-quality 12h OHLCV for **EURJPY**. 24/5 market coverage — Asia, Europe and US sessions with institutional-style FX candles. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**EURJPY 12h OHLCV forex historical data** — ultra high-quality 12h OHLCV for **Euro / Japanese Yen**. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 12h OHLCV** for **EURJPY** (Forex)
-- **24/5 market coverage — Asia, Europe and US sessions with institutional-style FX candles**
-- **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`12h`) · **9 timeframes** on [getdata.finance](https://getdata.finance/datasets/eurjpy) · **14,076** `1m` rows in the full archive
+- **Ultra high-quality 12h OHLCV** for **Euro / Japanese Yen** (Forex)
+- **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
+- **Free evaluation sample** on GitHub (`12h`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/eurjpy) · **14,118** `12h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `12h` sample updated in sync
 
-> **Sample on GitHub** · `EURJPY_12h.csv` (345 rows, `2025-12-23` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/eurjpy)** — **14,076** `1m` rows (~1.34 MB), **9 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W), `2001-11-28` -> `2026-07-31`.
+> **Sample on GitHub** · `EURJPY_12h.csv` (85 rows, `2026-07-10` -> `2026-09-02`, 6.05 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/eurjpy)** — **14,118** `12h` rows (full `1m`: 9,228,234), **11 timeframes**, `2001-11-28` -> `2026-09-02`.
 
 ## Download sample
 
@@ -44,22 +43,22 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/eurjpy))** |
 |---|--:|---|
-| Instrument | EURJPY · Forex | EURJPY · Forex |
-| Timeframes | `12h` (sample) | **9** — 1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W |
-| 1m rows | 345 | **14,076** |
-| Size | 0.04 MB | ~1.34 MB |
-| Period | `2025-12-23` -> `2026-07-31` | `2001-11-28` -> `2026-07-31` |
+| Instrument | Euro / Japanese Yen · Forex | Euro / Japanese Yen · Forex |
+| Timeframes | `12h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
+| 12h rows | 85 | **14,118** |
+| Size | 6.05 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/eurjpy) |
+| Period | `2026-07-10` -> `2026-09-02` | `2001-11-28` -> `2026-09-02` |
 | File | `EURJPY_12h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/eurjpy) |
 | Coverage report | — | [EURJPY coverage](https://getdata.finance/coverage/eurjpy) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
 
 ## Timeframes on GetData
 
-This GitHub repository ships a **`12h` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/eurjpy)**, each full asset archive is delivered as a ZIP with **9 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`12h` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/eurjpy)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **12H** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
-GitHub = `12h` sample · [getdata.finance](https://getdata.finance/datasets/eurjpy) = all **9** timeframes above for the same instrument.
+GitHub = `12h` sample · [getdata.finance](https://getdata.finance/datasets/eurjpy) = all **11** timeframes above for the same instrument.
 
 ## Weekly updates
 
@@ -74,29 +73,29 @@ First and latest rows from the GitHub sample **`EURJPY_12h.csv`**:
 
 **First rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2025-12-23T00:00:00+00:00 | 184.4435 | 184.4615 | 183.3325 | 183.8335 | 208547 |
-| 2025-12-23T12:00:00+00:00 | 183.8335 | 184.3025 | 183.7355 | 184.1665 | 180532.1793245183 |
-| 2025-12-24T00:00:00+00:00 | 184.1665 | 184.2475 | 183.5935 | 183.8435 | 208918 |
-| 2025-12-24T12:00:00+00:00 | 183.8435 | 183.9345 | 183.3215 | 183.7355 | 192582.2557470892 |
-| 2025-12-26T00:00:00+00:00 | 183.9635 | 184.6995 | 183.8445 | 184.6805 | 193738.6805862903 |
+| 2026-07-10T00:00:00+00:00 | 185.391 | 185.415 | 184.731 | 184.917 | 274338 |
+| 2026-07-10T12:00:00+00:00 | 184.917 | 184.927 | 184.457 | 184.556 | 149584 |
+| 2026-07-12T12:00:00+00:00 | 184.314 | 184.722 | 184.314 | 184.711 | 49766 |
+| 2026-07-13T00:00:00+00:00 | 184.711 | 185.467 | 184.542 | 185.308 | 265155 |
+| 2026-07-13T12:00:00+00:00 | 185.308 | 185.316 | 184.755 | 184.868 | 205151 |
 
 **Last rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-29T12:00:00+00:00 | 186.195 | 187.401 | 186.172 | 187.19 | 245980 |
-| 2026-07-30T00:00:00+00:00 | 187.19 | 187.352 | 186.244 | 186.865 | 231713 |
-| 2026-07-30T12:00:00+00:00 | 186.865 | 186.949 | 182.048 | 184.429 | 404407.0249803719 |
-| 2026-07-31T00:00:00+00:00 | 184.429 | 185.004 | 182.552 | 183.845 | 393617 |
-| 2026-07-31T12:00:00+00:00 | 183.845 | 184.21 | 181.195 | 181.305 | 402268 |
+| 2026-08-31T00:00:00+00:00 | 185.434 | 185.451 | 184.921 | 185.38 | 256352 |
+| 2026-08-31T12:00:00+00:00 | 185.38 | 185.695 | 185.251 | 185.655 | 218263 |
+| 2026-09-01T00:00:00+00:00 | 185.655 | 185.705 | 185.392 | 185.61 | 264652 |
+| 2026-09-01T12:00:00+00:00 | 185.61 | 185.746 | 185.473 | 185.665 | 192196 |
+| 2026-09-02T00:00:00+00:00 | 185.665 | 185.693 | 185.624 | 185.677 | 15596 |
 
 ## Schema
 
 | Column | Description |
 | --- | --- |
-| `datetime` | Bar open timestamp (UTC, ISO-8601). |
+| `time` | Bar open timestamp (UTC, ISO-8601). |
 | `open` | Opening price of the candlestick bar. |
 | `high` | Highest price during the bar. |
 | `low` | Lowest price during the bar. |
@@ -104,7 +103,7 @@ First and latest rows from the GitHub sample **`EURJPY_12h.csv`**:
 | `volume` | Tick volume (number of price updates) during the bar. |
 
 ```text
-datetime,open,high,low,close,volume
+time,open,high,low,close,volume
 ```
 
 ## Code examples
@@ -114,11 +113,9 @@ datetime,open,high,low,close,volume
 ```python
 import pandas as pd
 
-df = pd.read_csv('EURJPY_12h.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('EURJPY_12h.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -127,8 +124,8 @@ print(df.resample('1h').agg({'open': 'first', 'high': 'max',
 import backtrader as bt
 import pandas as pd
 
-df = pd.read_csv('EURJPY_12h.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('EURJPY_12h.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 
 class PandasData(bt.feeds.PandasData):
     params = (('datetime', None), ('open', 'open'), ('high', 'high'),
@@ -146,20 +143,20 @@ cerebro.adddata(PandasData(dataname=df))
 import pandas as pd
 import vectorbt as vbt
 
-df = pd.read_csv('EURJPY_12h.csv', parse_dates=['datetime'])
-close = df.set_index('datetime')['close']
+df = pd.read_csv('EURJPY_12h.csv', parse_dates=['time'])
+close = df.set_index('time')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='12h')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **EURJPY** archive on **[getdata.finance](https://getdata.finance/datasets/eurjpy)** includes **9 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W) — **14,076** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **EURJPY** archive on **[getdata.finance](https://getdata.finance/datasets/eurjpy)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **14,118** rows at `12h`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full EURJPY dataset on getdata.finance](https://getdata.finance/datasets/eurjpy)**
 
 ---
-*GetData · EURJPY 12h OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/eurjpy) · 2026-08-05 UTC*
+*GetData · EURJPY 12h OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/eurjpy)*
